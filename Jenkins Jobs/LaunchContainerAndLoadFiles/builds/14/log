@@ -1,0 +1,18 @@
+Started by upstream project "[8mha:////4Lor0SfGRtKHjt862G6e4sQ6+3G0t4D3TXi0qany0iTTAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+i755Xk5+YkpLoklifoA0wQHwccAAAA=[0mDownloadData" build number [8mha:////4BFqkY5qCWp1I2eFKMikKYheEuN5VFVaelB6/eGbgcQMAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JH2X/PK8nPzEFJfEkkR9I2MAct8MKskAAAA=[0m23
+originally caused by:
+ Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/LaunchContainerAndLoadFiles
+[LaunchContainerAndLoadFiles] $ /bin/sh -xe /tmp/jenkins15631967284931671038.sh
++ sudo cat /root/MLOps/Python/main.py
++ grep keras
+from keras.optimizers import Adam
+from keras.models import Sequential
+from keras.layers import Dense
++ sudo docker ps
++ grep neuralnetwork
+5a246e014a6c        tensorflowimage     "python3"           7 hours ago         Up 7 hours                              neuralnetwork
++ echo 'Already Running'
+Already Running
+Triggering a new build of [8mha:////4HLPkb5d6hQInvo4Go5q6Q74zyL62OCOVYnJgSiN2x7qAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JKDuxKKSkKLEzDygIfoA3hxYH8gAAAA=[0mStartTraining
+Finished: SUCCESS

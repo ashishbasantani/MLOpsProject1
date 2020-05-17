@@ -1,0 +1,38 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers>
+    <jenkins.triggers.ReverseBuildTrigger>
+      <spec></spec>
+      <upstreamProjects>CheckAccuracy</upstreamProjects>
+      <threshold>
+        <name>SUCCESS</name>
+        <ordinal>0</ordinal>
+        <color>BLUE</color>
+        <completeBuild>true</completeBuild>
+      </threshold>
+    </jenkins.triggers.ReverseBuildTrigger>
+  </triggers>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>sudo python3 /root/MLOps/Python/tweakparameters.py
+sudo curl http://192.168.43.194:8080/job/StartTraining/build?token=starttraining
+#sudo cp /root/MLOps/Python/hyperparameters.txt /root/jenkinsgit/mlopsfiles
+#sudo cd /root/jenkinsgit/mlopsfiles/
+#sudo /root/jenkinsgit/mlopsfiles ls 
+#sudo /root/jenkinsgit/mlopsfiles/ git add /root/jenkinsgit/mlopsfiles/ls
+#sudo git commit /root/jenkinsgit/mlopsfiles/. -m &quot;Added file after tweaking parameters&quot;</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>

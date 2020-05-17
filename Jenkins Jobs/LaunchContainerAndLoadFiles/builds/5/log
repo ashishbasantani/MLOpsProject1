@@ -1,0 +1,14 @@
+Started by upstream project "[8mha:////4Lor0SfGRtKHjt862G6e4sQ6+3G0t4D3TXi0qany0iTTAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+i755Xk5+YkpLoklifoA0wQHwccAAAA=[0mDownloadData" build number [8mha:////4De1XLFxe+2yXMAKDT9Z8UNftmL6rhYISQEoFfwx1jo4AAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JH2X/PK8nPzEFJfEkkR9QxMAEhlFn8kAAAA=[0m14
+originally caused by:
+ Started by user [8mha:////4IoHMU0qeKpsZ9JpfVDQcHU2l+6/x8aHHd+7zKu/weKwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/LaunchContainerAndLoadFiles
+[LaunchContainerAndLoadFiles] $ /bin/sh -xe /tmp/jenkins11904727084192265838.sh
++ sudo cat /root/MLOps/Python/main.py
++ grep keras
+from keras import xyz
++ sudo docker ps
++ grep neuralnetwork
++ sudo docker run -itd -v /root/MLOps/Python:/home --name neuralnetwork tensorflowimage
+5a246e014a6cd10f141226f50623e23a1387527ade5a3d010d3dd084566154da
+Finished: SUCCESS

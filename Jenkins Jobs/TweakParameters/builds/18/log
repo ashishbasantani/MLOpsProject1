@@ -1,0 +1,41 @@
+Started by user [8mha:////4IoHMU0qeKpsZ9JpfVDQcHU2l+6/x8aHHd+7zKu/weKwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/TweakParametersAndPush
+[TweakParametersAndPush] $ /bin/sh -xe /tmp/jenkins4078693700738347799.sh
++ sudo python3 /root/MLOps/Python/tweakparameters.py
+File for tweaking parameters
++ sudo curl -i 'http://192.168.43.194:8080/buildWithParameters?token=starttraining'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   879  100   879    0     0   143k      0 --:--:-- --:--:-- --:--:--  143k
+HTTP/1.1 403 Forbidden
+Date: Sun, 17 May 2020 00:57:59 GMT
+X-Content-Type-Options: nosniff
+Set-Cookie: JSESSIONID.50283df7=node012fsjw32m85ca1f2ekhg3kb6wi258.node0; Path=/; HttpOnly
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+Content-Type: text/html;charset=utf-8
+X-Hudson: 1.395
+X-Jenkins: 2.222.3
+X-Jenkins-Session: 4362d922
+X-You-Are-Authenticated-As: anonymous
+X-You-Are-In-Group-Disabled: JENKINS-39402: use -Dhudson.security.AccessDeniedException2.REPORT_GROUP_HEADERS=true or use /whoAmI to diagnose
+X-Required-Permission: hudson.model.Hudson.Read
+X-Permission-Implied-By: hudson.security.Permission.GenericRead
+X-Permission-Implied-By: hudson.model.Hudson.Administer
+Content-Length: 879
+Server: Jetty(9.4.27.v20200227)
+
+<html><head><meta http-equiv='refresh' content='1;url=/login?from=%2FbuildWithParameters%3Ftoken%3Dstarttraining'/><script>window.location.replace('/login?from=%2FbuildWithParameters%3Ftoken%3Dstarttraining');</script></head><body style='background-color:white; color:white;'>
+
+
+Authentication required
+<!--
+You are authenticated as: anonymous
+Groups that you are in:
+  
+Permission you need to have (but didn't): hudson.model.Hudson.Read
+ ... which is implied by: hudson.security.Permission.GenericRead
+ ... which is implied by: hudson.model.Hudson.Administer
+-->
+
+</body></html>                                                                                                                                                                                                                                                                                                            Finished: SUCCESS

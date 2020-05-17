@@ -1,0 +1,11 @@
+Started by user [8mha:////4IoHMU0qeKpsZ9JpfVDQcHU2l+6/x8aHHd+7zKu/weKwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/TweakParametersAndPush
+[TweakParametersAndPush] $ /bin/sh -xe /tmp/jenkins3363257312057191030.sh
++ sudo python3 /root/MLOps/Python/tweakparameters.py
+File for tweaking parameters
++ sudo cp /root/MLOps/Python/hyperparameters.txt /root/jenkinsgit/mlopsfiles
++ sudo git add /root/jenkinsgit/mlopsfiles/.
+fatal: not a git repository (or any of the parent directories): .git
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,21 @@
+Started by upstream project "[8mha:////4HLPkb5d6hQInvo4Go5q6Q74zyL62OCOVYnJgSiN2x7qAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JKDuxKKSkKLEzDygIfoA3hxYH8gAAAA=[0mStartTraining" build number [8mha:////4Oe491I0aMRprDujYy8ySeBntyd/90KNFJ7CbmIrRXqLAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZR/az8JKDuxKKSkKLEzDygIfqGpgB3TydKygAAAA==[0m15
+originally caused by:
+ Started by upstream project "[8mha:////4OQguOCQndAwuMzaN9MhmK3liO9OJu+zQmuJswZkGkjYAAAArB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzpEgZF/az8JH2fxNK85AygypLEzLzUIse8FJ/8xBS3zJzUYn0A2eHWudYAAAA=[0mLaunchContainerAndLoadFiles" build number [8mha:////4PUnITrF5Ekjk/GJdpexVDB4w6w+SS/JN7yjKPnlWw2bAAAArh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZl/az8JH2fxNK85AygypLEzLzUIse8FJ/8xBS3zJzUYn1DYwBqPdcq2AAAAA==[0m13
+ originally caused by:
+  Started by upstream project "[8mha:////4Lor0SfGRtKHjt862G6e4sQ6+3G0t4D3TXi0qany0iTTAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+i755Xk5+YkpLoklifoA0wQHwccAAAA=[0mDownloadData" build number [8mha:////4G+W2Bg1V03pBlLzzVww90vy5z3tb3JZh8fJrAhDgT76AAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JH2X/PK8nPzEFJfEkkR9IyMA5O8LXckAAAA=[0m22
+  originally caused by:
+   Started by user unknown or anonymous
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/CheckAccuracy
+[CheckAccuracy] $ /bin/sh -xe /tmp/jenkins1283702835268616592.sh
++ sudo cat /root/MLOps/Python/main.py
++ grep keras
+from keras.layers import Dense
+++ sudo docker exec neuralnetwork python /home/accuracytest.py
++ accuracy=86
++ ((  86 >= 80  ))
++ sudo python3 /root/MLOps/Python/success.py
+Mail Sent
++ exit 1
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

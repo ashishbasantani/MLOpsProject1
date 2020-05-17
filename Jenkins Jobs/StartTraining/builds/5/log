@@ -1,0 +1,16 @@
+Started by upstream project "[8mha:////4OQguOCQndAwuMzaN9MhmK3liO9OJu+zQmuJswZkGkjYAAAArB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzpEgZF/az8JH2fxNK85AygypLEzLzUIse8FJ/8xBS3zJzUYn0A2eHWudYAAAA=[0mLaunchContainerAndLoadFiles" build number [8mha:////4IjWZ+F9Ow1fPRzuvcAPcXfUTQ2qrh8GXLPv2CmDOp0lAAAArh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZl/az8JH2fxNK85AygypLEzLzUIse8FJ/8xBS3zJzUYn1DAwDQbN6z2AAAAA==[0m10
+originally caused by:
+ Started by upstream project "[8mha:////4Lor0SfGRtKHjt862G6e4sQ6+3G0t4D3TXi0qany0iTTAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+i755Xk5+YkpLoklifoA0wQHwccAAAA=[0mDownloadData" build number [8mha:////4MMt6h0hgZI87bGX8dRdefPrxULwOS233N5KCOff+QfiAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JH2X/PK8nPzEFJfEkkR9Q0sAr2X04ckAAAA=[0m19
+ originally caused by:
+  Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/StartTraining
+[StartTraining] $ /bin/sh -xe /tmp/jenkins13588909583984738143.sh
++ grep keras
++ sudo cat /root/MLOps/Python/main.py
+from keras.layers import Dense
++ sudo docker exec neuralnetwork python /home/main.py
+Using TensorFlow backend.
+Hello World After test 2
+Triggering a new build of [8mha:////4GxwnIxpXilsC4MSYeyG8WcXKp1C8oGoDnhNcMoVEIViAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JH3njNTkbMfk5NKixORKfQAg3nzkyAAAAA==[0mCheckAccuracy
+Finished: SUCCESS

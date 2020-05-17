@@ -1,0 +1,10 @@
+commit 77ceb7c2738f7b67133b712901f8b3e83d75eea0
+tree f1318181a991af58136e4fd2ef0d9a0094a627d9
+parent ee3e12edd011c8996a555817f11d32cd9b34914d
+author root <root@localhost.localdomain> 2020-05-17 04:53:55 +0530
+committer root <root@localhost.localdomain> 2020-05-17 04:53:55 +0530
+
+    Added
+
+
+:100644 100644 dae1d4dbd2de575fa574040a539c9605b9c37973 066949644d14d21474147b3160b4858627739e6a M	main.py

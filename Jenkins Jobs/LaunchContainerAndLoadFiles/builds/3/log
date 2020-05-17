@@ -1,0 +1,15 @@
+Started by upstream project "[8mha:////4Lor0SfGRtKHjt862G6e4sQ6+3G0t4D3TXi0qany0iTTAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+i755Xk5+YkpLoklifoA0wQHwccAAAA=[0mDownloadData" build number [8mha:////4NoQ71MwWMt2lqcgJN2UeCit1TdCRKVstahGvdIFBWXMAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JH2X/PK8nPzEFJfEkkR9QyMAJ7wmdskAAAA=[0m12
+originally caused by:
+ Started by user [8mha:////4IoHMU0qeKpsZ9JpfVDQcHU2l+6/x8aHHd+7zKu/weKwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/LaunchContainer
+[LaunchContainer] $ /bin/sh -xe /tmp/jenkins11424135462675145416.sh
++ sudo cat main.py
++ grep keras
+cat: main.py: No such file or directory
++ sudo docker ps
++ grep sklearn
+03b2cd321bd9        tensorflowimage     "python3"           6 minutes ago       Up 6 minutes                            sklearn
++ echo 'Already Running'
+Already Running
+Finished: SUCCESS

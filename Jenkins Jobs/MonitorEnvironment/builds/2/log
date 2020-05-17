@@ -1,0 +1,24 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/MonitorEnvironment
+[MonitorEnvironment] $ /bin/sh -xe /tmp/jenkins5984868787217117087.sh
++ sudo docker ps
++ grep neuralnetwork
+5a246e014a6c        tensorflowimage     "python3"           4 hours ago         Up 4 hours                              neuralnetwork
++ echo 'Everything is OK environment running properly
+else
+sudo docker run -itd -v /root/MLOps/Python:/home --name neuralnetwork tensorflowimage
+fi
+
+if sudo docker ps | grep sklearn
+then
+echo Everything' is OK environment running properly
+Everything is OK environment running properly
+else
+sudo docker run -itd -v /root/MLOps/Python:/home --name neuralnetwork tensorflowimage
+fi
+
+if sudo docker ps | grep sklearn
+then
+echo Everything is OK environment running properly
+Finished: SUCCESS

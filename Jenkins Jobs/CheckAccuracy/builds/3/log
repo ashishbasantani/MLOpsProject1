@@ -1,0 +1,13 @@
+Started by user [8mha:////4IoHMU0qeKpsZ9JpfVDQcHU2l+6/x8aHHd+7zKu/weKwAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/CheckAccuracy
+[CheckAccuracy] $ /bin/sh -xe /tmp/jenkins12424532611332189944.sh
++ grep keras
++ sudo cat /root/MLOps/Python/main.py
+from keras.layers import Dense
+++ sudo docker exec neuralnetwork python /home/accuracytest.py
++ accuracy=86
++ ((  86 >= 80  ))
++ sudo python3 /root/MLOps/Python/success.py
+Success
+Finished: SUCCESS

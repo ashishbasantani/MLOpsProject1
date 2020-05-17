@@ -1,0 +1,12 @@
+Started by remote host 192.168.43.194
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/StartTraining
+[StartTraining] $ /bin/sh -xe /tmp/jenkins359426378664269147.sh
++ sudo cat /root/MLOps/Python/main.py
++ grep keras
+from keras.layers import Dense
++ sudo docker exec neuralnetwork python /home/main.py
+Using TensorFlow backend.
+Hello World After test 2
+Triggering a new build of [8mha:////4GxwnIxpXilsC4MSYeyG8WcXKp1C8oGoDnhNcMoVEIViAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JH3njNTkbMfk5NKixORKfQAg3nzkyAAAAA==[0mCheckAccuracy
+Finished: SUCCESS

@@ -1,0 +1,15 @@
+Started by upstream project "[8mha:////4GxwnIxpXilsC4MSYeyG8WcXKp1C8oGoDnhNcMoVEIViAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JH3njNTkbMfk5NKixORKfQAg3nzkyAAAAA==[0mCheckAccuracy" build number [8mha:////4KFvuO2S9PtTyYpAEZ132QKWjx1DrW7gkFYD4idkwhdfAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZR/az8JH3njNTkbMfk5NKixORKfUNjAMl+EVzKAAAA[0m13
+originally caused by:
+ Started by upstream project "[8mha:////4HLPkb5d6hQInvo4Go5q6Q74zyL62OCOVYnJgSiN2x7qAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JKDuxKKSkKLEzDygIfoA3hxYH8gAAAA=[0mStartTraining" build number [8mha:////4H+Tdq2ObNITqm1CjHJeFvMzmsMO4MEq4PUjMHtqjncrAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZR/az8JKDuxKKSkKLEzDygIfqGRgDU2kPUygAAAA==[0m12
+ originally caused by:
+  Started by remote host 192.168.43.194
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/TweakParametersAndPush
+[TweakParametersAndPush] $ /bin/sh -xe /tmp/jenkins11540803212441659514.sh
++ sudo python3 /root/MLOps/Python/tweakparameters.py
+File for tweaking parameters
++ sudo curl 'http://192.168.43.194:8080/job/StartTraining/build?token=starttraining'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+Finished: SUCCESS

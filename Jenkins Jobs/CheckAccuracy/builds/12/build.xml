@@ -1,0 +1,46 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>StartTraining</upstreamProject>
+            <upstreamUrl>job/StartTraining/</upstreamUrl>
+            <upstreamBuild>11</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UpstreamCause>
+                <upstreamProject>LaunchContainerAndLoadFiles</upstreamProject>
+                <upstreamUrl>job/LaunchContainerAndLoadFiles/</upstreamUrl>
+                <upstreamBuild>12</upstreamBuild>
+                <upstreamCauses>
+                  <hudson.model.Cause_-UpstreamCause>
+                    <upstreamProject>DownloadData</upstreamProject>
+                    <upstreamUrl>job/DownloadData/</upstreamUrl>
+                    <upstreamBuild>21</upstreamBuild>
+                    <upstreamCauses>
+                      <hudson.model.Cause_-UserIdCause/>
+                    </upstreamCauses>
+                  </hudson.model.Cause_-UpstreamCause>
+                </upstreamCauses>
+              </hudson.model.Cause_-UpstreamCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>85</queueId>
+  <timestamp>1589678551639</timestamp>
+  <startTime>1589678551644</startTime>
+  <result>SUCCESS</result>
+  <duration>2269</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/workspace/CheckAccuracy</workspace>
+  <hudsonVersion>2.222.3</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

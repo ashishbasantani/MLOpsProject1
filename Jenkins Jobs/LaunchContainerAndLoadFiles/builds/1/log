@@ -1,0 +1,14 @@
+Started by upstream project "[8mha:////4Lor0SfGRtKHjt862G6e4sQ6+3G0t4D3TXi0qany0iTTAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+i755Xk5+YkpLoklifoA0wQHwccAAAA=[0mDownloadData" build number [8mha:////4GG31rOogRwiQddWNBq96Xaw3cy7/HvYHsqMIRL2u/4zAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JH2X/PK8nPzEFJfEkkR9QwMAC90omMkAAAA=[0m10
+originally caused by:
+ Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/LaunchContainer
+[LaunchContainer] $ /bin/sh -xe /tmp/jenkins12535045585784352474.sh
++ sudo cat main.py
++ grep keras
+cat: main.py: No such file or directory
++ grep sklearn
++ sudo docker ps
++ sudo docker run -itd -v /root/MLOps/Python:/home --name sklearn tensorflowimage
+03b2cd321bd9aa8a0e626ca01f900061e3c14fc741d177b3b3789763afc517ff
+Finished: SUCCESS

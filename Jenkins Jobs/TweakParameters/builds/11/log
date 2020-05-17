@@ -1,0 +1,28 @@
+Started by upstream project "[8mha:////4GxwnIxpXilsC4MSYeyG8WcXKp1C8oGoDnhNcMoVEIViAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JH3njNTkbMfk5NKixORKfQAg3nzkyAAAAA==[0mCheckAccuracy" build number [8mha:////4N4obIvOSSsR/41KBZnjT4eFNP8hMqOaM/3M21PjUeDYAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZR/az8JH3njNTkbMfk5NKixORKfUMDAHMvGMXKAAAA[0m10
+originally caused by:
+ Started by upstream project "[8mha:////4HLPkb5d6hQInvo4Go5q6Q74zyL62OCOVYnJgSiN2x7qAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JKDuxKKSkKLEzDygIfoA3hxYH8gAAAA=[0mStartTraining" build number [8mha:////4LlvzqdcbNW7yoN7ibf8qp4v+UCCvl7tPpDEBSLOhX+0AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBhH9rPwkoO7EopKQosTMPKAh+hYAZdSYSckAAAA=[0m8
+ originally caused by:
+  Started by remote host 192.168.43.113
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/TweakParametersAndPush
+[TweakParametersAndPush] $ /bin/sh -xe /tmp/jenkins7241241705501065108.sh
++ sudo python3 /root/MLOps/Python/tweakparameters.py
+File for tweaking parameters
++ sudo curl 'http://192.168.43.194:8080/job/StartTraining/build?token=starttraining'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   895  100   895    0     0  47105      0 --:--:-- --:--:-- --:--:-- 99444
+<html><head><meta http-equiv='refresh' content='1;url=/login?from=%2Fjob%2FStartTraining%2Fbuild%3Ftoken%3Dstarttraining'/><script>window.location.replace('/login?from=%2Fjob%2FStartTraining%2Fbuild%3Ftoken%3Dstarttraining');</script></head><body style='background-color:white; color:white;'>
+
+
+Authentication required
+<!--
+You are authenticated as: anonymous
+Groups that you are in:
+  
+Permission you need to have (but didn't): hudson.model.Hudson.Read
+ ... which is implied by: hudson.security.Permission.GenericRead
+ ... which is implied by: hudson.model.Hudson.Administer
+-->
+
+</body></html>                                                                                                                                                                                                                                                                                                            Finished: SUCCESS

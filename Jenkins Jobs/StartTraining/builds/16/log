@@ -1,0 +1,33 @@
+Started by upstream project "[8mha:////4OQguOCQndAwuMzaN9MhmK3liO9OJu+zQmuJswZkGkjYAAAArB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzpEgZF/az8JH2fxNK85AygypLEzLzUIse8FJ/8xBS3zJzUYn0A2eHWudYAAAA=[0mLaunchContainerAndLoadFiles" build number [8mha:////4DYIpYDgskHVNEDtioELx+ckllbJhpDLutt8zT264LXuAAAArh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZl/az8JH2fxNK85AygypLEzLzUIse8FJ/8xBS3zJzUYn1DEwDJqLO02AAAAA==[0m14
+originally caused by:
+ Started by upstream project "[8mha:////4Lor0SfGRtKHjt862G6e4sQ6+3G0t4D3TXi0qany0iTTAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+i755Xk5+YkpLoklifoA0wQHwccAAAA=[0mDownloadData" build number [8mha:////4BFqkY5qCWp1I2eFKMikKYheEuN5VFVaelB6/eGbgcQMAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JH2X/PK8nPzEFJfEkkR9I2MAct8MKskAAAA=[0m23
+ originally caused by:
+  Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/StartTraining
+[StartTraining] $ /bin/sh -xe /tmp/jenkins6975149982856107322.sh
++ grep keras
++ sudo cat /root/MLOps/Python/main.py
+from keras.optimizers import Adam
+from keras.models import Sequential
+from keras.layers import Dense
++ sudo docker exec neuralnetwork python /home/main.py
+Using TensorFlow backend.
+Traceback (most recent call last):
+  File "/home/main.py", line 7, in <module>
+    dataset = pd.read_csv('Churn_Modelling.csv')
+  File "/usr/local/lib/python3.6/site-packages/pandas/io/parsers.py", line 676, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/usr/local/lib/python3.6/site-packages/pandas/io/parsers.py", line 448, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "/usr/local/lib/python3.6/site-packages/pandas/io/parsers.py", line 880, in __init__
+    self._make_engine(self.engine)
+  File "/usr/local/lib/python3.6/site-packages/pandas/io/parsers.py", line 1114, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "/usr/local/lib/python3.6/site-packages/pandas/io/parsers.py", line 1891, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas/_libs/parsers.pyx", line 374, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas/_libs/parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] File Churn_Modelling.csv does not exist: 'Churn_Modelling.csv'
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

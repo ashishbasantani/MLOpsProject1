@@ -1,0 +1,2 @@
+,epochs,layers,neurons,activationfunction,learningrate
+0,20,4,6,relu,0.0001

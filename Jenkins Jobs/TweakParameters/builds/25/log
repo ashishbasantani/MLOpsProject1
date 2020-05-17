@@ -1,0 +1,11 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/TweakParametersAndPush
+[TweakParametersAndPush] $ /bin/sh -xe /tmp/jenkins15986002949602096069.sh
++ sudo python3 /root/MLOps/Python/tweakparameters.py
+File for tweaking parameters
++ sudo curl 'http://192.168.43.194:8080/job/StartTraining/build?token=starttraining'
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+Finished: SUCCESS

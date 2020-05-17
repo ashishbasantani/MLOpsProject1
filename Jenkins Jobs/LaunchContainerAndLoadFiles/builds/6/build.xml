@@ -1,0 +1,32 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>DownloadData</upstreamProject>
+            <upstreamUrl>job/DownloadData/</upstreamUrl>
+            <upstreamBuild>15</upstreamBuild>
+            <upstreamCauses>
+              <hudson.triggers.SCMTrigger_-SCMTriggerCause/>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>24</queueId>
+  <timestamp>1589664379518</timestamp>
+  <startTime>1589664379526</startTime>
+  <result>SUCCESS</result>
+  <duration>1099</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/workspace/LaunchContainerAndLoadFiles</workspace>
+  <hudsonVersion>2.222.3</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>

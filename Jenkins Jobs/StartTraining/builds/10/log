@@ -1,0 +1,14 @@
+Started by remote host 192.168.43.194
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/StartTraining
+[StartTraining] $ /bin/sh -xe /tmp/jenkins15303428610599777274.sh
++ grep keras
++ sudo cat /root/MLOps/Python/main.py
+from keras.layers import Dense
++ sudo docker exec neuralnetwork python /home/main.py
+Using TensorFlow backend.
+Hello World After test 2
++ sudo mkdir /root/jenkinsgit/Test
+mkdir: cannot create directory ‘/root/jenkinsgit/Test’: File exists
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

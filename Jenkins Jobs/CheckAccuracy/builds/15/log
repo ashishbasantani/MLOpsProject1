@@ -1,0 +1,17 @@
+Started by upstream project "[8mha:////4HLPkb5d6hQInvo4Go5q6Q74zyL62OCOVYnJgSiN2x7qAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZh/az8JKDuxKKSkKLEzDygIfoA3hxYH8gAAAA=[0mStartTraining" build number [8mha:////4MhQvA5Z5M8EpH0LQL3BfjCD4PUjVSDpVfEdiZEqYhc1AAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZR/az8JKDuxKKSkKLEzDygIfqGJgDhfyA9ygAAAA==[0m14
+originally caused by:
+ Started by remote host 192.168.43.194
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/CheckAccuracy
+[CheckAccuracy] $ /bin/sh -xe /tmp/jenkins11403254380421665649.sh
++ grep keras
++ sudo cat /root/MLOps/Python/main.py
+from keras.layers import Dense
+++ sudo docker exec neuralnetwork python /home/accuracytest.py
++ accuracy=86
++ ((  86 >= 80  ))
++ sudo python3 /root/MLOps/Python/success.py
+Success
++ exit 1
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

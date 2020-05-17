@@ -1,0 +1,22 @@
+Started by an SCM change
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/DownloadData
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ashishbasantani/mlopsfiles # timeout=10
+Fetching upstream changes from https://github.com/ashishbasantani/mlopsfiles
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/ashishbasantani/mlopsfiles +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 52ce8df189b91cfa09a821646ed8a6f388789bd8 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 52ce8df189b91cfa09a821646ed8a6f388789bd8 # timeout=10
+Commit message: "Added for testing2"
+ > git rev-list --no-walk aa808457df318bc7744c106ce2d7342ef3e53753 # timeout=10
+[DownloadData] $ /bin/sh -xe /tmp/jenkins10084179740437506027.sh
++ sudo cp -rv main.py /root/MLOps/Python
+'main.py' -> '/root/MLOps/Python/main.py'
+Triggering a new build of [8mha:////4AxXi44Nwix2hKZzqpPFWQ4e8ZXOg1/dUBjGZniIhaoMAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/az8JH2fxNK85AygypLEzLzUIn0A+wu50soAAAA=[0mLaunchContainer
+Finished: SUCCESS

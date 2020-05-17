@@ -1,0 +1,10 @@
+Started on 17-May-2020, 9:18:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision b1bc377ac2d09b9c3861fa6306530ce36bfcdf66 (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/ashishbasantani/mlopsfiles # timeout=10
+Found 1 remote heads on https://github.com/ashishbasantani/mlopsfiles
+[poll] Latest remote head revision on refs/heads/master is: 50ac3e228d589fa5aac45008b2cd3f60ec6facf4
+Done. Took 1.2 sec
+Changes found

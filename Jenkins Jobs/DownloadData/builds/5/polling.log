@@ -1,0 +1,9 @@
+Started on 17-May-2020, 2:08:00 AM
+Using strategy: Default
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/ashishbasantani/mlopsfiles # timeout=10
+Unexpected ls-remote output line ''
+[poll] Couldn't get remote head revision
+Done. Took 1.4 sec
+Changes found
